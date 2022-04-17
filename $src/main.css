@@ -1,0 +1,11 @@
+th {
+	text-align: left;
+	vertical-align: center;
+	font-weight: normal;
+}
+
+iframe {
+	border: none;
+	width: 300px;
+	height: 40px;
+}
