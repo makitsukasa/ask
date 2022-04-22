@@ -1,6 +1,6 @@
 window.onload = function() {
 	tbody = document.getElementById("tbody");
-	for (var anken of ankens) {
+	for (var anken of ankens.sort()) {
 		// <tr>
 		var tr = document.createElement("tr");
 		tbody.append(tr);
